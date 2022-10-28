@@ -1,0 +1,30 @@
+{
+	"name": "kickstart-your-journey-with-javascript-master-you",
+	"version": "1.0.0",
+	"description": "<p align=\"center\">\r     <img src=\"./assets/thumbnail.jpeg\" alt=\"session thumbnail\" width=\"60%\" style=\"border-radius: 12px;\" />\r </p>",
+	"main": "index.js",
+	"scripts": {
+		"01": "node Vanilla-JavaScript/01-basic_console.js",
+		"02": "node Vanilla-JavaScript/02-variables.js",
+		"03": "node Vanilla-JavaScript/03-comments.js",
+		"04": "node Vanilla-JavaScript/04-data_types.js",
+		"05": "node Vanilla-JavaScript/05-operators.js",
+		"06": "node Vanilla-JavaScript/06-control_flow.js",
+		"07": "node Vanilla-JavaScript/07-functions.js",
+		"08": "node Vanilla-JavaScript/08-function_arguments.js",
+		"09": "node Vanilla-JavaScript/09-event_listeners.js",
+		"10": "node Vanilla-JavaScript/10-dom_manipulation.js",
+		"11": "node Vanilla-JavaScript/11-fetch.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kunalkeshan/Kickstart-Your-Journey-With-JavaScript-Master-You.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kunalkeshan/Kickstart-Your-Journey-With-JavaScript-Master-You/issues"
+	},
+	"homepage": "https://github.com/kunalkeshan/Kickstart-Your-Journey-With-JavaScript-Master-You#readme"
+}
