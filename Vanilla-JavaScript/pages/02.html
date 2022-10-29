@@ -8,13 +8,110 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script src="../02-variables.js"></script>
 	</head>
-	<body class="w-full p-12 font-mono">
-		<main class="bg-[#9095A0] w-full h-full rounded-xl p-2">
+	<body class="w-full p-12 font-mono flex">
+		<main
+			class="bg-[#9095A0] w-full h-full rounded-xl p-2 max-w-[1200px] mx-auto"
+		>
 			<h1 class="text-4xl text-center">02 - Variables</h1>
 			<h2 class="text-xl mt-2 text-center">
 				Understand what Variables are and how to use them. Make sure to
 				keep your console open while viewing the page (Ctrl + Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># What are Variables?</h3>
+				<p>
+					Variables are container to store some type of data. You can
+					later use that same container to access the data, make some
+					change to it, or use it for some other purpose.
+				</p>
+				<p>
+					In JavaScript, we have 3 ways of declaring variables. We use
+					certain keywords (words given by the language itself) to
+					declare variables
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					var<br />
+					let<br />
+					const<br />
+				</code>
+				<h3 class="text-xl"># What's the difference?</h3>
+				<p>
+					var - let's you redeclare variables and change the content
+					of the variable later. <br />
+					let - does not allow variable to be redeclare and can change
+					the content of the variable later. <br />
+					const - needs to be declared at the time of initialization,
+					once assigned cannot be changed.
+				</p>
+				<p>
+					When you declare a variable, you initialize it as well.
+					<br />
+					But not vice-versa, you can initialize a variable, without
+					declaring it. <br />
+					Think of Initializing as making a box (box being the
+					variable)<br />
+					And declaring as actually filling the contents of the
+					box.<br />
+					Some examples:
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					// Initializing and declaring at the same time<br /><br />
+					var name = 'Kunal Keshan';<br />
+					let college = 'SRMIST';<br />
+					const age = 19;<br /><br />
+
+					console.log(name, college, age);<br /><br />
+
+					name = 'Jaswin Anand';<br />
+					college = 'VIT';<br />
+					// age = 20; // Will Throw an error<br /><br />
+
+					console.log(name, college, age);<br /><br />
+
+					// Initializing and declaring later<br /><br />
+
+					let address;<br /><br />
+
+					console.log(address); // undefined<br /><br />
+
+					address = 'Chennai, Tamil Nadu - 600123';<br /><br />
+
+					console.log(address);<br /><br />
+
+					// Trying to initialize a constant variable<br /><br />
+
+					// const country; // Will Throw an error<br />
+					// country = 'India'<br />
+					// console.log(country)<br />
+				</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_variables.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_variables.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"

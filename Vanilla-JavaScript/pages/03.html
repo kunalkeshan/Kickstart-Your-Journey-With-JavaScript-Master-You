@@ -8,13 +8,63 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script src="../03-comments.js"></script>
 	</head>
-	<body class="w-full p-12 font-mono">
-		<main class="bg-[#9095A0] w-full h-full rounded-xl p-2">
+	<body class="w-full p-12 font-mono flex">
+		<main
+			class="bg-[#9095A0] w-full h-full rounded-xl p-2 max-w-[1200px] mx-auto"
+		>
 			<h1 class="text-4xl text-center">03 - Comments</h1>
 			<h2 class="text-xl mt-2 text-center">
 				Adding Comments and understanding their need. Make sure to keep
 				your console open while viewing the page (Ctrl + Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># What are comments?</h3>
+				<p>
+					Comments are lines of code that is ignored by the
+					interpreter during the run time.
+				</p>
+				<p>
+					Comments can be written in two ways in JavaScript, single
+					line comments and multi line comments.<br />
+					- Single Line Comments - uses `//` and the comment text
+					after the double forward slash.<br />
+					- Multi Line Comments - uses `/* */` and the comment text in
+					between the asterisks.
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					// this line is called a single line comment<br /><br />
+
+					// you can even make multi line comments using /* */<br /><br />
+
+					/**<br />
+					* Just like this!<br />
+					*/
+				</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#comments"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#comments</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_comments.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_comments.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"

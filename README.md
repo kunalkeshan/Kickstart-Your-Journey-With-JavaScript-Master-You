@@ -8,8 +8,9 @@ Explore the various facets of how JavaScript rules the world of web...
 
 ## 📥 Prerequisites
 
-Before we get started, make sure you've installed the following:
+Before we get started, make sure you've installed the following in order:
 
+- Git - [https://git-scm.com/downloads](https://git-scm.com/downloads)
 - Node.js - [https://nodejs.org/en/download/](https://nodejs.org/en/download/) (Recommended)
 - VS Code - [https://code.visualstudio.com/download](https://code.visualstudio.com/download) (Optional)
   - Live Server Extension - [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Optional)

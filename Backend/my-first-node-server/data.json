@@ -1,0 +1,44 @@
+[
+	{
+		"id": 0,
+		"name": "Kunal Keshan",
+		"email": "kunal@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 1,
+		"name": "Himanshu",
+		"email": "himanshu@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 2,
+		"name": "Rohan Kumar",
+		"email": "rohan@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 3,
+		"name": "Jaswin Anand",
+		"email": "jaswin@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 4,
+		"name": "Surendar PD",
+		"email": "spd@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 5,
+		"name": "Jayanth Srinivasan",
+		"email": "idkjaya@gmail.com",
+		"phone": "9876543210"
+	},
+	{
+		"id": 6,
+		"name": "Kumar Srivatsan",
+		"email": "kumar@gmail.com",
+		"phone": "9876543210"
+	}
+]

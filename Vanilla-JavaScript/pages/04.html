@@ -8,14 +8,185 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script src="../04-data_types.js"></script>
 	</head>
-	<body class="w-full p-12 font-mono">
-		<main class="bg-[#9095A0] w-full h-full rounded-xl p-2">
+	<body class="w-full p-12 font-mono flex">
+		<main
+			class="bg-[#9095A0] w-full h-full rounded-xl p-2 max-w-[1200px] mx-auto"
+		>
 			<h1 class="text-4xl text-center">04 - Data Types</h1>
 			<h2 class="text-xl mt-2 text-center">
 				Taking a look at the different types of data you can use in JS.
 				Make sure to keep your console open while viewing the page (Ctrl
 				+ Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># JavaScript Data Types</h3>
+				<p>
+					In JavaScript, there are two types of Data 
+					<ul class="list-disc pl-4">
+						<li>Primitive Data Type
+							<ul class="list-disc pl-8">
+								<li>number</li>
+								<li>string</li>
+								<li>boolean</li>
+								<li>null</li>
+								<li>undefined</li>
+								<li>symbols</li>
+							</ul>
+						</li>
+						<li>Derived Data Type
+							<ul class="list-disc pl-8">
+								<li>objects</li>
+								<li>arrays (a type of object in javascript)</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Numbers</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Numbers - are declared using numbers, can range from negative to positive <br/>
+				// depending on the use case<br/><br />
+				let myNum = 10;<br />
+				const tenRaise2 = myNum ** 2; // We'll take a look at operators in the next module<br />
+				console.log('myNum:', myNum);<br />
+				console.log('tenRaise2:', tenRaise2);<br />
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Strings</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Strings - are declared using "", '', or ``. A string is basically a collection (array) of <br/>
+				// individual characters<br/><br/>
+				let myStr = 'This is a string in single quotes';<br/>
+				const name = "Kunal Keshan";<br/>
+				const address = "Chennai, Tamil Nadu.";<br/><br/>
+
+				console.log('myStr:', myStr);<br/>
+				console.log('name:', name);<br/>
+				console.log('address', address);<br/><br/>
+
+				// Templating using ``. We can generate a string whose value is variable <br/>
+				// ie - its value depends on other variables <br/><br/>
+
+				const concatenated = name + " lives in " + address;<br/>
+				const templated = `${name} lives in ${address}`;<br/><br/>
+
+				console.log('concatenated:', concatenated);<br/>
+				console.log('templated:', templated);
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Boolean</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Booleans - data type that represents the truthy or falsy nature of a value<br/><br/>
+				const trueBool = true;<br/>
+				const falseBool = false;<br/><br/>
+
+				console.log('trueBool:', trueBool);<br/>
+				console.log('falseBool:', falseBool);
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Null and Undefined</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				/**<br/>
+				 * Null - the variable is initialized but its value does not exist.<br/>
+				 * Undefined - indicates that something hasn't been declared yet.<br/>
+				 */<br/><br/>
+				let someUnDeclaredValue = null;<br/>
+				let myArray = [1, 2, 3];<br/><br/>
+
+				console.log('null:', someUnDeclaredValue);<br/>
+				console.log('undefined:', myArray[3]); // Trying to access a index element that does not exists yet
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Symbol</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Symbols - they are immutable data types (ie. they cannot be changed)<br/><br/>
+
+				const id = Symbol("id"); // useful when object keys need to stay permanent<br/>
+
+				console.log('id:', id);
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Object</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Objects - collection of unordered key: value pairs, they can be of any data type<br/><br/>
+				const person = {<br/>
+					name: 'Kunal Keshan',<br/>
+					college: 'SRMSIT',<br/>
+					address: 'Chennai, Tamil Nadu.'<br/>
+				};<br/><br/>
+
+				console.log('person object:', person);<br/>
+				console.log('name:', person.name);<br/>
+				console.log('college:', person['college']);
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Arrays</h3>
+				<code
+				lang="javascript"
+				class="bg-black text-white px-4 py-2 select-all"
+				>
+				// Arrays - In JavaScript, arrays are a type of object, whose key: value pairs are ordered. <br/>
+				const myArr = ['hi', 23, true, 'master you']; // the first element has index 0 and second has index 2 and so on<br/>
+				// is same as<br/>
+				/**<br/>
+				* const myArr = {<br/>
+				*  0: 'hi',<br/>
+				*  1: 23,<br/>
+				*  2: true,<br/>
+				*  3: 'master you'<br/>
+				* }<br/>
+				*/<br/><br/>
+
+				console.log('myArr:', myArr);<br/>
+				console.log(myArr[1]);<br/>
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_datatypes.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_datatypes.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"

@@ -48,6 +48,11 @@ npm run 01
 npm run 02
 ```
 
+#### Resources
+
+- [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+- [https://www.w3schools.com/js/js_variables.asp](https://www.w3schools.com/js/js_variables.asp)
+
 ### Comments
 
 #### Run from your Terminal
@@ -55,6 +60,11 @@ npm run 02
 ```bash
 npm run 03
 ```
+
+#### Resources
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#comments)
+- [https://www.w3schools.com/js/js_comments.asp](https://www.w3schools.com/js/js_comments.asp)
 
 ### Data Types
 
@@ -64,6 +74,11 @@ npm run 03
 npm run 04
 ```
 
+#### Resources
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+- [https://www.w3schools.com/js/js_datatypes.asp](https://www.w3schools.com/js/js_datatypes.asp)
+
 ### Operators
 
 #### Run from your Terminal
@@ -71,6 +86,8 @@ npm run 04
 ```bash
 npm run 05
 ```
+
+#### Resources
 
 ### Control Flow
 
@@ -80,6 +97,8 @@ npm run 05
 npm run 06
 ```
 
+#### Resources
+
 ### Functions
 
 #### Run from your Terminal
@@ -87,6 +106,8 @@ npm run 06
 ```bash
 npm run 07
 ```
+
+#### Resources
 
 ### Function Arguments
 
@@ -96,6 +117,8 @@ npm run 07
 npm run 08
 ```
 
+#### Resources
+
 ### Event Listeners
 
 #### Run from your Terminal
@@ -103,6 +126,8 @@ npm run 08
 ```bash
 npm run 09
 ```
+
+#### Resources
 
 ### DOM Manipulation
 
@@ -112,6 +137,8 @@ npm run 09
 npm run 10
 ```
 
+#### Resources
+
 ### Fetch API
 
 #### Run from your Terminal
@@ -119,3 +146,5 @@ npm run 10
 ```bash
 npm run 11
 ```
+
+#### Resources
