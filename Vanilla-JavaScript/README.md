@@ -102,6 +102,9 @@ npm run 06
 
 #### Resources
 
+- [https://developer.mozilla.org/en-US/docs/Glossary/Control_flow](https://developer.mozilla.org/en-US/docs/Glossary/Control_flow)
+- [https://www.w3schools.com/js/js_if_else.asp](https://www.w3schools.com/js/js_if_else.asp)
+
 ### Functions
 
 #### Run from your Terminal

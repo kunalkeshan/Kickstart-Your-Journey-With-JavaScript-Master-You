@@ -18,6 +18,146 @@
 				Control Flow syntax. Make sure to keep your console open while
 				viewing the page (Ctrl + Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Control Flow</h3>
+				<p>
+					The control flow is the order in which the computer executes
+					statements in a script.
+				</p>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Conditional Statements</h3>
+				<p>
+					Conditional statement helps evaluate which piece of code is
+					be executed based on a certain condition.
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					console.log('Evaluating 89 > 45 in if statement');<br />
+					if (89 > 45) {<br />
+					console.log('Fizz');<br />
+					}<br /><br />
+
+					console.log('\nEvaluating 23 >= 45 in if...else
+					statement');<br />
+					if (23 >= 45) {<br />
+					console.log('Fizz');<br />
+					} else {<br />
+					console.log('Buzz');<br />
+					}<br /><br />
+
+					console.log('\nEvaluating 23 >= 45, 44 >= 45 in if...else
+					if...else statement');<br />
+					if (23 >= 45) {<br />
+					console.log('Fizz');<br />
+					} else if (44 >= 45) {<br />
+					console.log('Buzz');<br />
+					} else {<br />
+					console.log('Pop');<br />
+					}<br /><br />
+
+					console.log('\nEvaluating 56 > 9 inside 12 > 4 in nested
+					if...else statement');<br />
+					if (12 > 4) {<br />
+					if (56 > 9) {<br />
+					console.log('Fizz');<br />
+					}<br />
+					}<br /><br />
+
+					let fruit = 'apple';<br />
+					console.log('\nEvaluating fruit variable in switch
+					statement');<br />
+					switch (fruit) {<br />
+					case 'pen': {<br />
+					console.log('I have a pen');<br />
+					break;<br />
+					}<br />
+					case 'apple': {<br />
+					console.log('I have an apple');<br />
+					break;<br />
+					}<br />
+					case 'ppap': {<br />
+					console.log('Pen pineapple apple pen');<br />
+					break;<br />
+					}<br />
+					default: {<br />
+					console.log('No fruit');<br />
+					break;<br />
+					}<br />
+					}<br />
+				</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Looping Statements</h3>
+				<p>
+					Can repeat a task or a number of statements over and over a
+					specified range for a give condition.
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					console.log('for loop statement');<br />
+					for (let i = 0; i < 4; i++) {<br />
+					console.log('Number:', i);<br />
+					}<br /><br />
+
+					console.log('\nwhile loop statement');<br />
+					let count = 0;<br />
+					while (count < 4) {<br />
+					count++;<br />
+					console.log('Current Count:', count);<br />
+					}<br /><br />
+
+					console.log('\ndo...while loop statement');<br />
+					count = 0;<br />
+					do {<br />
+					console.log('Current Count:', count);<br />
+					count++;<br />
+					} while (count < 4);<br /><br />
+
+					console.log('\nfor...in loop statement'); // iterating over
+					objects<br />
+					const person = {<br />
+					name: 'Kunal Keshan',<br />
+					college: 'SRMSIT',<br />
+					address: 'Chennai, Tamil Nadu.'<br />
+					};<br />
+					for (const key in person) {<br />
+					console.log(key, person[key]);<br />
+					}<br /><br />
+
+					console.log('\nfor...of loop statement'); // iterating over
+					arrays<br />
+					const myArray = ['hi', true, 'master you'];<br />
+					for (const value of myArray) {<br />
+					console.log(value);<br />
+					}
+				</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Glossary/Control_flow"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Glossary/Control_flow</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_if_else.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_if_else.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"
