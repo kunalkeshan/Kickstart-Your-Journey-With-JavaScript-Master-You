@@ -89,6 +89,9 @@ npm run 05
 
 #### Resources
 
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+- [https://www.w3schools.com/js/js_operators.asp](https://www.w3schools.com/js/js_operators.asp)
+
 ### Control Flow
 
 #### Run from your Terminal
