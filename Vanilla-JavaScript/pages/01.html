@@ -5,8 +5,62 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Basic Console</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="../01-basic_console.js"></script>
 	</head>
-	<body class="w-full p-12">
-		<main class="bg-[#9095A0] w-full h-full rounded-xl p-2"></main>
+	<body class="w-full p-12 font-mono">
+		<main class="bg-[#9095A0] w-full h-full rounded-xl p-2">
+			<h1 class="text-4xl text-center">01 - Basic Console</h1>
+			<h2 class="text-xl mt-2 text-center">
+				Console a simple line using the console statement. Make sure to
+				keep your console open while viewing the page (Ctrl + Shift + I)
+			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Statements</h3>
+				<p>
+					A statement is a line of instruction that does a certain
+					activity.
+				</p>
+				<code lang="javascript" class="bg-black text-white px-4 py-2">
+					console.log("Hello, World!");
+				</code>
+				<p>
+					In the above example we're using the `console.log` statement
+					to print something to the browser console or the terminal
+					depending on where it's being run.
+				</p>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_statements.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_statements.asp</a
+						>
+					</li>
+				</ul>
+			</div>
+			<a
+				href="../"
+				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"
+				>Go Back</a
+			>
+		</main>
+		<img
+			src="../../assets/master-you-logo.png"
+			alt="Master-You logo"
+			class="w-16 h-16 fixed top-2 right-2 rounded-lg"
+		/>
 	</body>
 </html>
