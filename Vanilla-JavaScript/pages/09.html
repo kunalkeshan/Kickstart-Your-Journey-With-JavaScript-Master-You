@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Event Listeners</title>
 		<script src="https://cdn.tailwindcss.com"></script>
-		<script src="../09-event_listeners.js"></script>
+		<script src="../09-event_listeners.js" defer></script>
 	</head>
 	<body class="w-full p-12 font-mono flex">
 		<main
@@ -18,6 +18,77 @@
 				Make sure to keep your console open while viewing the page (Ctrl
 				+ Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Count Container</h3>
+				<p>Click the container to increase the count.</p>
+				<div
+					id="count-container"
+					class="w-[80%] text-center text-4xl hover:cursor-pointer max-w-[60%] mx-auto bg-white text-[#9095A0] rounded-lg"
+				></div>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Event Listeners</h3>
+				<p>
+					The browser has inbuilt capabilities to identify `user`
+					based interaction. These interactions are identified as
+					events by JavaScript.
+				</p>
+				<p>
+					For example, you can say,<br />
+					- When the power is back, I can watch TV then. (waiting for
+					a event, then calling a function)<br />
+					- When I have two more days left for exams, I will start
+					studying. XD
+				</p>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+					// Getting our html elements in a variable<br />
+					const countContainer =
+					document.getElementById("count-container");<br /><br />
+
+					// Initializing our count variable<br />
+					let count = 0;<br />
+					console.log(`Count: ${count}`);<br /><br />
+
+					// Add the count value to the container<br />
+					countContainer.innerText = count;<br /><br />
+
+					// function to increment the count when the container is
+					clicked<br />
+					const incrementCount = () => {<br />
+					count++;<br />
+					countContainer.innerText = count;<br />
+					console.log(count);<br />
+					}<br />
+
+					countContainer.addEventListener('click', () => {<br />
+					incrementCount();<br />
+					});
+				</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_events.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_events.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"

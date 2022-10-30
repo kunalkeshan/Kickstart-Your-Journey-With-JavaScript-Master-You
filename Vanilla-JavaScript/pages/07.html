@@ -18,6 +18,105 @@
 				together a single task. Make sure to keep your console open
 				while viewing the page (Ctrl + Shift + I)
 			</h2>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># What are functions?</h3>
+				<p>
+					* Functions help group together a group of statements and
+					call them all together.<br />
+					* The group of statements usually have a common goal, i.e. a
+					common function to serve
+				</p>
+				<p>
+					Different types of functions,
+					<ul class="list-disc pl-4">
+						<li>Using function keyword</li>
+						<li>Function Expression</li>
+						<li>Arrow Functions</li>
+						<li>IIFE (Immediately Invoked Function Expression)</li>
+					</ul>
+				</p>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Using `function` keyword</h3>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+				function sayMyName() {<br/>
+					console.log("Hii, I'm Kunal");<br/>
+				}<br/>
+				sayMyName();<br/><br/>
+				
+				function giveMeANum() {<br/>
+					return 10;<br/>
+				}<br/>
+				const myNum = giveMeANum();<br/>
+				console.log(myNum);
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Function Expression</h3>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+				const myFunc = function () {<br/>
+					console.log("I'm in a function expression!");<br/>
+				}<br/>
+				myFunc();<br/><br/>
+
+				const anotherFunc = myFunc;<br/>
+				anotherFunc();
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Arrow Functions</h3>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+				const arrowFunc = () => {<br/>
+					console.log('Arrow functions are cool!');<br/>
+				}<br/>
+				arrowFunc();<br/>
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># IIFE (Immediately Invoked Function Expression)</h3>
+				<code
+					lang="javascript"
+					class="bg-black text-white px-4 py-2 select-all"
+				>
+				(function () {<br/>
+					console.log('This is an IIFE');<br/>
+				})();<br/><br/>
+				
+				(() => {<br/>
+					console.log('This is another IIFE');<br/>
+				})();
+			</code>
+			</div>
+			<div class="flex flex-col gap-2 my-2">
+				<h3 class="text-xl"># Resources</h3>
+				<ul class="list-disc pl-4">
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions"
+							target="_blank"
+							class="underline"
+							>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.w3schools.com/js/js_functions.asp"
+							target="_blank"
+							class="underline"
+							>https://www.w3schools.com/js/js_functions.asp</a
+						>
+					</li>
+				</ul>
+			</div>
 			<a
 				href="../"
 				class="w-full bg-white px-4 py-2 my-2 block text-center text-lg rounded-lg font-bold"

@@ -115,6 +115,9 @@ npm run 07
 
 #### Resources
 
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions)
+- [https://www.w3schools.com/js/js_functions.asp](https://www.w3schools.com/js/js_functions.asp)
+
 ### Function Arguments
 
 #### Run from your Terminal
@@ -124,6 +127,9 @@ npm run 08
 ```
 
 #### Resources
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#function_parameters)
+- [https://www.w3schools.com/js/js_functions.asp](https://www.w3schools.com/js/js_functions.asp)
 
 ### Event Listeners
 
@@ -135,6 +141,9 @@ npm run 09
 
 #### Resources
 
+- [https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
+- [https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp)
+
 ### DOM Manipulation
 
 #### Run from your Terminal
@@ -145,6 +154,9 @@ npm run 10
 
 #### Resources
 
+- [https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+- [https://www.w3schools.com/js/js_htmldom.asp](https://www.w3schools.com/js/js_htmldom.asp)
+
 ### Fetch API
 
 #### Run from your Terminal
@@ -154,3 +166,6 @@ npm run 11
 ```
 
 #### Resources
+
+- [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [https://www.w3schools.com/js/js_api_fetch.asp](https://www.w3schools.com/js/js_api_fetch.asp)
